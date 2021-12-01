@@ -1,0 +1,38 @@
+.column-3{
+float: left;
+width: 75%;
+}
+
+.column-2{
+    width: 50%;
+    float: left;
+}
+
+.column-1{
+    width: 25%;
+    float: left;
+}
+
+button.calc-button{
+    width: 100%;
+    height: 80px;
+    border: 1px solid #ddd;
+    font-size: 32px;
+    color: #555;
+}
+
+input.result{  
+    width: 100%;
+    height: 70px;
+    border: none;
+    text-align: right;
+    font-size: 32px;
+    padding-right: 50px;
+    float: right;
+}
+
+div.float-last{
+    position: absolute;
+    right: 50px;
+    color: #aaa;
+}
